@@ -9,7 +9,7 @@ public class Number extends Thread {
 
     public void run() {
         try {
-            Thread.sleep(num * 1000);
+            Thread.sleep(num*1000);
             synchronized (Main.sortedArr) {
                 Main.sortedArr.add(num);
                 if (Main.sortedArr.size() == size) {
