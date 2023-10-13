@@ -1,8 +1,8 @@
-# Sleep-sort
+# Simple Thread Sorting in Java ☕️
 
 This project demonstrates a simple sorting mechanism using Java Threads. For each number in an unsorted array, a thread is created. Each thread sleeps for a duration in seconds equal to the value of the number it represents. Smaller numbers come out of sleep quicker, and are added to the sorted array sooner, effectively sorting the array.
 
-## Getting Started
+## Getting Started 🚀
 
 ### Prerequisites
 
@@ -21,7 +21,7 @@ Ensure you have the Java Development Kit (JDK) installed on your machine.
     java Main
     ```
 
-## Overview
+## Overview 📖
 
 1. The `Main` class creates an unsorted array with random numbers.
 2. A `Number` thread is created and started for each number in the unsorted array.
