@@ -1,9 +1,14 @@
 import java.util.*;
 
 public class Main {
+
+    public static ArrayList<Integer> sortedArr = new ArrayList<Integer>();
     public static void main(String[] args) {
         ArrayList<Integer> unsortedArr = createArray(6, 10);
-
+        for (Integer i: unsortedArr){
+            Number num = new Number(i, unsortedArr.size());
+            num.start();
+        }
         printArray(unsortedArr, "Unsorted Array");
     }
     
@@ -24,5 +29,6 @@ public class Main {
         for (Integer integer : arr) {
             System.out.print(integer + ", ");
         }
+        System.out.println("");
     }
 }
